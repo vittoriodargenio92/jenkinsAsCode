@@ -55,7 +55,7 @@ credentials:
 
 add file seedJob.groovy in data/jenkinsAsCode/seedJob.groovy
 
-```yaml
+```groovy
 job('seedJob') {
     scm {
         git {
